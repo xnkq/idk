@@ -402,7 +402,7 @@ function KavoCustom.CreateLib(kavName, themeList)
         page.Size = UDim2.new(1, 0, 1, 0)
         page.ScrollBarThickness = 5
         page.Visible = false
-        page.ScrollBarImageColor3 = Color3.fromRGB(themeStyles.SchemeColor.r * 255 - 16, themeStyles.SchemeColor.g * 255 - 15, themeStyles.SchemeColor.b * 255 - 28)
+        page.ScrollBarImageColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 16, themeList.SchemeColor.g * 255 - 15, themeList.SchemeColor.b * 255 - 28)
 
         pageListing.Name = "pageListing"
         pageListing.Parent = page
@@ -472,7 +472,7 @@ function KavoCustom.CreateLib(kavName, themeList)
         coroutine.wrap(function()
             while wait() do
                 page.BackgroundColor3 = themeList.Background
-                page.ScrollBarImageColor3 = Color3.fromRGB(themeStyles.SchemeColor.r * 255 - 16, themeStyles.SchemeColor.g * 255 - 15, themeStyles.SchemeColor.b * 255 - 28)
+                page.ScrollBarImageColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 16, themeList.SchemeColor.g * 255 - 15, themeList.SchemeColor.b * 255 - 28)
                 tabButton.TextColor3 = themeList.TextColor
                 tabButton.BackgroundColor3 = themeList.SchemeColor
             end
