@@ -119,6 +119,13 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255, 255, 255),
         ElementColor = Color3.fromRGB(44, 44, 44)
     },
+    PastelPink = {
+        SchemeColor = Color3.fromRGB(255, 200, 225),
+        Background = Color3.fromRGB(255, 240, 245),
+        Header = Color3.fromRGB(255, 220, 235),
+        TextColor = Color3.fromRGB(255, 255, 255),
+        ElementColor = Color3.fromRGB(240, 210, 255)
+    },
     Serpent = {
         SchemeColor = Color3.fromRGB(0, 166, 58),
         Background = Color3.fromRGB(31, 41, 43),
