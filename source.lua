@@ -183,6 +183,8 @@ function KavoCustom.CreateLib(kavName, themeList)
         themeList = themeStyles.Synapse
     elseif themeList == "Religion" then
         themeList = themeStyles.Religion
+    elseif themeList == "PastelPink" then
+        themeList = themeStyles.PastelPink
     elseif themeList == "Serpent" then
         themeList = themeStyles.Serpent
     else
