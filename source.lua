@@ -119,6 +119,13 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255, 255, 255),
         ElementColor = Color3.fromRGB(44, 44, 44)
     },
+    BlueEngine = {
+        SchemeColor = Color3.fromRGB(76, 132, 255),
+        Background = Color3.fromRGB(20, 20, 20),
+        Header = Color3.fromRGB(20, 20, 20),
+        TextColor = Color3.fromRGB(255, 255, 255),
+        ElementColor = Color3.fromRGB(44, 44, 44)
+    },
     PastelPink = {
         SchemeColor = Color3.fromRGB(255, 200, 225),
         Background = Color3.fromRGB(255, 240, 245),
